@@ -1,6 +1,7 @@
 #coding:utf-8
 from bs4 import BeautifulSoup
 from requests import get
+from pymongo import MongoClient
 
 #l = soup.find_all("span",class_="jsx-1338272632")
 #Code html formater et encoder soup.prettify(formatter="html5",encoding="utf-8")))
@@ -57,7 +58,21 @@ class Crypto_Analyse:
             for i in range(len(self.final_list)):
                 table_csv.write("{},{},{}\n".format(self.final_list[i]["name"],self.final_list[i]["cours"],self.final_list[i]["value"]))
 
+"""
 crypto = Crypto_Analyse()
 crypto.run()
 crypto.tri(value=True)
 crypto.ecriture()
+"""
+
+
+
+client = MongoClient("mongodb+srv://root:root@cluster0-fuans.mongodb.net/Crypto?retryWrites=true&w=majority")
+pots = {
+    "id":"350",
+    "name":"bitcoin",
+    "cours":65000
+}
+database = client["Crypto"]
+#database.cryptomonnaie.insert_one(pots).inserted_id
+print(database.cryptomonnaie.find_one({"id":"350"}))

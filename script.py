@@ -51,6 +51,11 @@ class Crypto_Analyse:
         else:
             pass
 
+    def connexion_mongodb(self):
+        client = MongoClient("mongodb+srv://root:root@cluster0-fuans.mongodb.net/Crypto?retryWrites=true&w=majority")
+        database = client["Crypto"]
+        for i in range(len(self.final_list)):
+            database.cryptomonnaie.insert_one(self.final_list[i]).inserted_id
 
     def ecriture(self):
         with open("table.csv","w") as table_csv:
@@ -58,21 +63,15 @@ class Crypto_Analyse:
             for i in range(len(self.final_list)):
                 table_csv.write("{},{},{}\n".format(self.final_list[i]["name"],self.final_list[i]["cours"],self.final_list[i]["value"]))
 
-"""
+
 crypto = Crypto_Analyse()
 crypto.run()
 crypto.tri(value=True)
-crypto.ecriture()
-"""
+crypto.connexion_mongodb()
+#crypto.ecriture()
 
 
 
-client = MongoClient("mongodb+srv://root:root@cluster0-fuans.mongodb.net/Crypto?retryWrites=true&w=majority")
-pots = {
-    "id":"350",
-    "name":"bitcoin",
-    "cours":65000
-}
-database = client["Crypto"]
+
 #database.cryptomonnaie.insert_one(pots).inserted_id
-print(database.cryptomonnaie.find_one({"id":"350"}))
+#print(database.cryptomonnaie.find_one({"id":"350"}))

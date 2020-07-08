@@ -1,0 +1,1 @@
+utilisation de base de la librairie bs4 et de mongodb scraping de cryptommonaie

@@ -52,7 +52,7 @@ class Crypto_Analyse:
             pass
 
     def connexion_mongodb(self):
-        client = MongoClient("mongodb+srv://root:root@cluster0-fuans.mongodb.net/Crypto?retryWrites=true&w=majority")
+        client = MongoClient("mongodb+srv://ID/Crypto?retryWrites=true&w=majority")
         database = client["Crypto"]
         collection = database.cryptomonnaie
 

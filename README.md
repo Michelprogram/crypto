@@ -5,30 +5,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+    <img src="images/bitcoin.gif" alt="Logo" width="80" height="80">
 
-  <h3 align="center">{project}</h3>
+  <h3 align="center">Crypto python</h3>
 
-  <p align="center">
-    {Short description}
-    <br />
-    <!--
-        <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-    -->
-    
-  </p>
+  <p align="center">Fetch crypto from courscryptomonnaies and save at CSV or into Mongo database</p>
 </div>
 
-
+ <br />  
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -55,29 +39,20 @@
   </ol>
 </details>
 
+<br>
+
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-{Long description}
-
-{Point abordé}
-
-
-<p align="right"><a href="#top">⬆️</a></p>
-
-
+## 🧭 About The Project
 
 ### 🏗️ Built With
 
 List of technologies / frameworks used during the project.
 
-<!--
-* [![Badge](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)](https://vuejs.org/)
--->
+* [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+* [![Mongo Badge](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/fr-fr)
+* <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> 
 
 <p align="right"><a href="#top">⬆️</a></p>
 
@@ -91,18 +66,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### 🗺️ Prerequisites
 
+* Python3.7 installed on your PC.
+* Account and cluster on mongodb
 
 ### ⚙️ Installation
 
+```sh
+$bash : pip3 install requests pymongo bs4
+```
 
 <p align="right"><a href="#top">⬆️</a></p>
-
-
 
 
 <!-- USAGE EXAMPLES -->
 ## 💾 Usage
 
+```sh
+$bash : python3.7 script.py
+```
 
 <p align="right"><a href="#top">⬆️</a></p>
 
@@ -143,7 +124,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Reach me at : gauron.dorian.pro@gmail.com.
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Michelprogram/crypto](https://github.com/Michelprogram/crypto)
 
 <p align="right"><a href="#top">⬆️</a></p>
 
@@ -155,25 +136,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 This space is a list to resources i found helpful and would like to give credit to.
 
-* [Choose an Open Source License](https://choosealicense.com)
+* [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [Mongo Website](https://www.mongodb.com/fr-fr)
+* [Python CSV](https://docs.python.org/fr/3/library/csv.html)
 
 <p align="right"><a href="#top">⬆️</a></p>
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+<a href="https://github.com/othneildrew/Best-README-Template">Template inspired by othneildrew</a>

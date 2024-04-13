@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Chart</title>
+  </head>
+  <body>
+    <canvas id="myChart"></canvas>
+  </body>
+</html>
+<script>
+  const ctx = document.getElementById("myChart");
+
+  async function chart() {
+    const response = await fetch("table.json", { mode: "no-cors" });
+    const json = await response.json();
+
+    const labels = json.map((item) => item.name);
+    const values = json.map((item) => item.cours);
+
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: "# of Votes",
+            data: values,
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+        tooltips: {
+          mode: "index",
+          intersect: false,
+        },
+      },
+    });
+  }
+
+  chart();
+</script>

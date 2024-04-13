@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Bitcoin (BTC)  ",
+    "cours": 63100.55,
+    "value": -4.96
+  },
+  {
+    "name": "Ethereum (ETH)  ",
+    "cours": 3061.65,
+    "value": -7.29
+  },
+  {
+    "name": "Maker (MKR)  ",
+    "cours": 2751.12,
+    "value": -11.74
+  },
+  {
+    "name": "Binance Coin (BNB)  ",
+    "cours": 556.59,
+    "value": -4.34
+  },
+  {
+    "name": "Bitcoin Cash (BCH)  ",
+    "cours": 500.58,
+    "value": -10.84
+  },
+  {
+    "name": "Gnosis (GNO)  ",
+    "cours": 327.51,
+    "value": -6.65
+  },
+  {
+    "name": "Monero (XMR)  ",
+    "cours": 117.46,
+    "value": -6.49
+  },
+  {
+    "name": "Quant (QNT)  ",
+    "cours": 97.56,
+    "value": -8.94
+  },
+  {
+    "name": "Litecoin (LTC)  ",
+    "cours": 80.43,
+    "value": -11.74
+  },
+  {
+    "name": "Bitcoin SV (BSV)  ",
+    "cours": 72.69,
+    "value": -14.89
+  },
+  {
+    "name": "OKB (OKB)  ",
+    "cours": 49.94,
+    "value": -6.39
+  },
+  {
+    "name": "Ethereum Classic (ETC)  ",
+    "cours": 27.51,
+    "value": -12.0
+  },
+  {
+    "name": "NEO (NEO)  ",
+    "cours": 18.65,
+    "value": -13.02
+  },
+  {
+    "name": "ChainLink (LINK)  ",
+    "cours": 14.14,
+    "value": -14.21
+  },
+  {
+    "name": "KuCoin Shares (KCS)  ",
+    "cours": 9.4,
+    "value": -4.29
+  },
+  {
+    "name": "Cosmos (ATOM)  ",
+    "cours": 8.47,
+    "value": -16.72
+  },
+  {
+    "name": "Filecoin [Futures] (FIL)  ",
+    "cours": 6.18,
+    "value": -18.46
+  },
+  {
+    "name": "UNUS SED LEO (LEO)  ",
+    "cours": 5.45,
+    "value": 0.16
+  },
+  {
+    "name": "THORChain (RUNE)  ",
+    "cours": 5.23,
+    "value": -21.47
+  },
+  {
+    "name": "Havven (SNX)  ",
+    "cours": 2.97,
+    "value": -17.49
+  },
+  {
+    "name": "Blockstack (STX)  ",
+    "cours": 2.51,
+    "value": -9.42
+  },
+  {
+    "name": "Theta Token (THETA)  ",
+    "cours": 2.19,
+    "value": -17.86
+  },
+  {
+    "name": "Fetch (FET)  ",
+    "cours": 2.05,
+    "value": -11.68
+  },
+  {
+    "name": "Tezos (Pre-Launch) (XTZ)  ",
+    "cours": 1.03,
+    "value": -13.97
+  },
+  {
+    "name": "Tether (USDT)  ",
+    "cours": 0.94,
+    "value": 0.05
+  },
+  {
+    "name": "USD Coin (USDC)  ",
+    "cours": 0.94,
+    "value": 0.01
+  },
+  {
+    "name": "Multi-collateral DAI (DAI)  ",
+    "cours": 0.94,
+    "value": -0.01
+  },
+  {
+    "name": "EOS (EOS)  ",
+    "cours": 0.84,
+    "value": -21.31
+  },
+  {
+    "name": "SingularityNET (AGIX)  ",
+    "cours": 0.81,
+    "value": -16.35
+  },
+  {
+    "name": "Matic Network (MATIC)  ",
+    "cours": 0.71,
+    "value": -13.09
+  },
+  {
+    "name": "Fantom (FTM)  ",
+    "cours": 0.7,
+    "value": -17.45
+  },
+  {
+    "name": "Ripple (XRP)  ",
+    "cours": 0.51,
+    "value": -10.52
+  },
+  {
+    "name": "Cardano (ADA)  ",
+    "cours": 0.48,
+    "value": -12.19
+  },
+  {
+    "name": "Decentraland (MANA)  ",
+    "cours": 0.47,
+    "value": -18.52
+  },
+  {
+    "name": "Algorand (ALGO)  ",
+    "cours": 0.18,
+    "value": -17.21
+  },
+  {
+    "name": "Dogecoin (DOGE)  ",
+    "cours": 0.16,
+    "value": -13.72
+  },
+  {
+    "name": "Crypto.com Chain (CRO)  ",
+    "cours": 0.13,
+    "value": -10.0
+  },
+  {
+    "name": "TRON (TRX)  ",
+    "cours": 0.11,
+    "value": -6.31
+  },
+  {
+    "name": "Stellar (XLM)  ",
+    "cours": 0.11,
+    "value": -12.34
+  },
+  {
+    "name": "Chiliz (CHZ)  ",
+    "cours": 0.11,
+    "value": -16.25
+  },
+  {
+    "name": "Hedera Hashgraph (HBAR)  ",
+    "cours": 0.08,
+    "value": -13.11
+  },
+  {
+    "name": "VeChain (VET)  ",
+    "cours": 0.04,
+    "value": -8.52
+  },
+  {
+    "name": "Nervos Network (CKB)  ",
+    "cours": 0.03,
+    "value": -10.97
+  }
+]
